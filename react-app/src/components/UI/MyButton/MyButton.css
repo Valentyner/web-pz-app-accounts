@@ -1,0 +1,10 @@
+.submit_VH {
+    border: none;
+    background-color: rgb(17, 59, 175);
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+}

@@ -1,0 +1,14 @@
+.table-container {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
