@@ -35,7 +35,7 @@ const UserItem: FC<UserItemProps> = ({ account }) => {
                 <p>{account.email}</p>
             </td>
             <td>
-                <p className={`status ${account.status}`}>{account.status}</p>
+                <p className={`status-${account.status}`}>{account.status}</p>
             </td>
             <td>
                 <p>

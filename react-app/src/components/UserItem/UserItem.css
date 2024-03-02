@@ -1,0 +1,30 @@
+p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+    border-top: 0.5px darkslateblue solid;
+}
+.status-Disable {
+    background-color: rgb(233, 9, 9);
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+}
+.status-Pending {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+.status-Active {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}

@@ -23,7 +23,7 @@ const UserList = () => {
 
     const getAccounts = async () => {
         try {
-            const data: AxiosResponse<Account[]> = await axios.get<Account[]>('http://localhost:3001/accounts');
+            const data: AxiosResponse<Account[]> = await axios.get<Account[]>('http://localhost:3000/accounts');
             setAccounts(data.data)
         } catch (e) {
             console.log(e)
